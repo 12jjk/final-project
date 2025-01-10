@@ -1,0 +1,37 @@
+@import "reset";
+@import "variables";
+@import "placeholders";
+@import "mixins";
+
+header {
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+
+        h1 {
+
+            margin: 28px;
+        }
+
+        nav {
+            margin: 28px;
+            display: flex;
+            width: 500px;
+            margin: 28px;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+    p {
+        margin: 28px;
+        font-size: 18px;
+        font-style: italic;
+        color: hsl(180, 40%, 70%);
+    }
+
+}
